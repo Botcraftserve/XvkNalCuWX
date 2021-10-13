@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "axios": "^0.22.0",
+    "basic-ftp": "^4.6.6",
+    "discord.js": "^12.5.3",
+    "ftps": "^1.1.1",
+    "moment": "^2.29.1",
+    "node-fetch": "^3.0.0",
+    "nodemon": "^2.0.13",
+    "puppeteer": "^10.4.0",
+    "python-shell": "^3.0.1",
+    "ssh2-sftp-client": "^7.0.4"
+  }
+}

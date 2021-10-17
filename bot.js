@@ -84,7 +84,7 @@ client.on('message', msg => {
                   fs.writeFile('./sid/' + '002' + '.txt', haslo, function (err) {
                     if (err) return console.log(err);
                   });
-                  PythonShell.run('valhelsia.py', msg.author.id, function (err) {
+                  PythonShell.run('skyfactory.py', msg.author.id, function (err) {
                     if (err) throw err;
                   });
                   msg.channel.send('Poczekaj 1-2 minuty i uruchom serwer, pracujemy nad usprawnieniem tej komendy...')

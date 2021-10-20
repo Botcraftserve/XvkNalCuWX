@@ -93,7 +93,7 @@ client.on('message', msg => {
         });
 
 
-client.login('ODk3MTY4MTA5Mzk4NTQwMzQ4.YWRu6Q.nk7CK7_bS1mdNYZsXAg1AReFHpk');
+client.login('token');
 
 function sleep(ms) {
   return new Promise((resolve) => {
